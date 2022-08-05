@@ -1,0 +1,47 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 69px;
+    align-content: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.background {
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1200px;
+    flex: 1;
+    background-color: black;
+    color: white;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.description h2, .description h4 {
+    margin: 0;
+}
+
+.description h2 {
+    margin-top: 8px;
+    margin-bottom: 14px
+}
+
+.description h4 {
+    margin-bottom: 12px;
+}
+

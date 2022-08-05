@@ -1,0 +1,40 @@
+.section2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 1200px;
+}
+
+.section2 h2, .section2 h4{
+    margin-bottom: 24px;
+}
+
+.flavors {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flavor {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.flavor img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.flavor h4 {
+    margin-top: 10px;
+}

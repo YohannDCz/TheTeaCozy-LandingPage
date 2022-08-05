@@ -15,29 +15,9 @@
         <link rel="stylesheet" href="./stylesheets/index.css">
         <link rel="stylesheet" href="./stylesheets/section1.css">
         <link rel="stylesheet" href="./stylesheets/section2.css">
-        <style>
-            body {
-                display: flex;
-                flex-direction: column;
-                font-family: Helvetica, sans-serif;
-                font-size: 22px;
-                color: seashell;
-                background-color: black;
-                opacity: 0.9;
-                height: 3000px;
-                margin: 0;
-                align-items: center;
-            }
-
-            h2, h4 {
-                margin: 0;
-                position: relative;
-            }
- 
-            
-            
-            
-       </style>
+        <link rel="stylesheet" href="./stylesheets/section3.css">
+        <link rel="stylesheet" href="./stylesheets/footer.css">
+        <link rel="stylesheet" href="./stylesheets/general.css">
     </head>
     <body>
         <header>
@@ -49,14 +29,14 @@
             </div>
         </header>
         <main>
-            <div class="section1">
+            <section class="section1">
                 <img class="background" src="./images/img-mission-background.jpeg" alt="">
                 <div class="description">
                     <h2>Our Mission</h2>
-                    <h4>Handpisked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+                    <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
                 </div>
-            </div>
-            <div class="section2">
+            </section>
+            <section class="section2">
                 <h2>Tea of the Month</h2>
                 <h4>What's Steeping at The Tea Cozy?</h4>
                 <div class="flavors">
@@ -81,29 +61,36 @@
                         <h4>Bedford Bizarre Tea</h4>
                     </div>
                 </div>
-            </div>
-            <div class="section3">
+            </section>
+            <section class="section3">
                 <h2>Locations</h2>
-                <img src="./images/img-locations-background.jpeg" alt="">
-                <div class="downtown-container">
-                    <h4>Downtown</h4>
+                <div class="container">
+                    <h3>Downtown</h3>
                     <h4>384 West 4th St</h4>
                     <h4>Suite 108</h4>
-                    <h2>Portland, Maine</h2>
+                    <h4>Portland, Maine</h4>
                 </div>
-                <div class="east-bayside-container">
-                    <h4>East Bayside</h4>
+                <div class="container">
+                    <h3>East Bayside</h3>
                     <h4>3433 Phisherman's Avenue</h4>
                     <h4>(Northwest Corner)</h4>
                     <h4>Portland, Maine</h4>
                 </div>
-                <div class="oakdale-container">
-                    <h4>Oakdale</h4>
+                <div class="container">
+                    <h3>Oakdale</h3>
                     <h4>515 Crescent Avenue</h4>
                     <h4>Second Floor</h4>
                     <h4>Portland, Maine</h4>
                 </div>
-            </div>
+            </section>
         </main>
+        <footer>
+            <section class="section4">
+                <h2>The Tea Cozy</h2>
+                <h5 class="contact">contact@theteacozy.com</h5>
+                <h5 class="numero">917-555-8904</h5>
+            </section>
+        </footer>
+        <div class="copyright"><h5>Copyright the Tea Cozy 2017</h5></div>
     </body>
 </html>
